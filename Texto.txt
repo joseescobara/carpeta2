@@ -2,4 +2,5 @@ hola, este es mi nuevo repositorio
 
 Soy Estadístico de la universidad de Antioquia 
 
+estoy estudiando Magister en Estadística
 Me gusta programar en R, me toca hacer mi tesis que es el código
