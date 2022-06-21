@@ -2,6 +2,11 @@ hola, este es mi nuevo repositorio
 
 Soy Estadístico de la universidad de Antioquia 
 
+<<<<<<< HEAD
 Me gusta programar en R, me toca hacer mi tesis que es el código
 
 Soy aprendiz de moran
+=======
+estoy estudiando Magister en Estadística y profesor
+Me gusta programar en R, me toca hacer mi tesis que es el código
+>>>>>>> nueva
