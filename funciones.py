@@ -1,4 +1,6 @@
+
 from ast import Return
+from logging import exception
 
 
 def suma(a: int,b: int)-> int:
@@ -7,7 +9,7 @@ def suma(a: int,b: int)-> int:
 
 
 
-def multiplicación(num1, num2):
+def división(num1, num2):
     """Función que calcula la multiplicación de dos números
     
     Args:
@@ -17,8 +19,12 @@ def multiplicación(num1, num2):
     Returns:
         int, float, str: multiplicar
     """
-    resp = num1*num2
-    return resp
+    try:
+        resp = num1/num2
+        return resp
+    except exception as e:
+        raise "Se está dividiendo por cero, por favor cambie los argumentos"
 
-k = multiplicación(3,5)
-print(k)   
+
+
+división(12,0)
